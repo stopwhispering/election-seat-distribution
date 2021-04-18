@@ -15,24 +15,4 @@ $ python example.py
 ```
 
 ## UML Diagram
-```mermaid
-classDiagram
-
-class Distributor{ 
-	<<abstract>>
-	+seats 
-	+calc() 
-}
-
-class DistributorComparison{
-	+distributors
-	+compare()
-}
-
-Distributor <|.. Dhondt
-Distributor <|.. SainteLague
-Distributor <|.. HareNiemeyer
-Distributor <|.. ExactQuotas
-
-DistributorComparison --> Distributor
-```
+![UML Class Diagram](./static/diagram.png)

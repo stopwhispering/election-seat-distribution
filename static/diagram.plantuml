@@ -1,0 +1,21 @@
+@startuml Classes_Election_Seats_Distribution
+hide empty fields
+hide empty methods
+
+abstract class Distributor{
+	+seats
+	+calc()
+}
+
+class DistributorComparison{
+	+distributors
+	+compare()
+}
+
+class Dhondt implements Distributor
+class SainteLague implements Distributor
+class HareNiemeyer implements Distributor
+class ExactQuotas implements Distributor
+
+DistributorComparison --> Distributor
+@enduml
