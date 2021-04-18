@@ -3,7 +3,7 @@ Basic implementation of election seat allocation methods for proportional repres
 
  - [Sainte-Laguë Method (syn. Webster Method)](https://en.wikipedia.org/wiki/Webster/Sainte-Lagu%C3%AB_method)
  - [Hare-Niemeyer Method (syn. Largest remainder method, Hamilton Method)](https://en.wikipedia.org/wiki/Largest_remainder_method)
- - [d'Hondt Method (syn. Jefferson Method, Hagenbach-Bischoff Method)]([https://en.wikipedia.org/wiki/D%27Hondt_method)
+ - [d'Hondt Method (syn. Jefferson Method, Hagenbach-Bischoff Method)](https://en.wikipedia.org/wiki/D%27Hondt_method)
 
 ## Dependencies
 Only Python Standard Library. 
